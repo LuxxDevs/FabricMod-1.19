@@ -3,6 +3,7 @@ package net.lukas.tutorialmod;
 import net.fabricmc.api.ModInitializer;
 import net.lukas.tutorialmod.block.ModBlocks;
 import net.lukas.tutorialmod.item.ModItems;
+import net.lukas.tutorialmod.item.custom.EightBallItem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,5 +16,6 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
 	}
 }
