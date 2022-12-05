@@ -3,7 +3,7 @@ package net.lukas.tutorialmod;
 import net.fabricmc.api.ModInitializer;
 import net.lukas.tutorialmod.block.ModBlocks;
 import net.lukas.tutorialmod.item.ModItems;
-import net.lukas.tutorialmod.item.custom.EightBallItem;
+import net.lukas.tutorialmod.painting.ModPaintings;
 import net.lukas.tutorialmod.villager.ModVillagers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,7 +16,10 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+
 		ModBlocks.registerModBlocks();
+
+		ModPaintings.registerPaintings();
 
 		ModVillagers.registerVillagers();
 		ModVillagers.registerTrades();
