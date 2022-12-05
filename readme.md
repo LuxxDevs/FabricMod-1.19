@@ -24,4 +24,4 @@
 >   --> Eight Block (Gives back different number every right click!)
 
 # FAQ
-    Ask Questions here or in our discord (Link: COMMING(&#x1F34E;) SOON(&#x1F34E;))
+    Ask Questions here or in our discord (Link: COMMING SOON)
